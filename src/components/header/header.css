@@ -1,0 +1,26 @@
+.header {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 3em;
+}
+
+.header button {
+    margin: 2rem auto;
+
+    font-family: Roboto;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    
+    border: none;
+    padding: 8px 15px;
+    background-color: #00AAEF;
+    border-radius: 9px;
+}
+
+.header .ActiveBtn {
+    background-color: #0078B8;
+}
+

@@ -1,0 +1,12 @@
+.container {
+    margin: 0 auto;
+    max-width: 1300px;
+}
+
+body { 
+    background-color: #E5E5E5;
+}
+
+select {
+    margin-bottom: 2rem;
+}
